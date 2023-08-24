@@ -51,6 +51,7 @@ const Home = () => {
                 </div>
               </div>
               <div className="aali_tm_down">
+             
                 <div className="down-icon white top_120">
                   <a className="anchor" href="#about">
                     <svg
@@ -90,9 +91,11 @@ const Home = () => {
                   </a>
                 </div>
               </div>
-            </div>
-            <div className="avatar parallax">
+            </div> 
+            <div className="avatar parallax ">
+            
               <div className="main"></div>
+              
               <span className="one">
                 <span className="in layer" data-depth="0.14" />
               </span>
@@ -102,37 +105,21 @@ const Home = () => {
               <span className="three">
                 <span className="in layer" data-depth="0.22" />
               </span>
-              <span className="four">
-                <div className="const">
-                  <h1>get a free consultation</h1>
-                  <Booking />
-                </div>
-              </span>
+              
               <span className="five">
                 <span className="in layer" data-depth="0.3" />
               </span>
             </div>
+            <div className="avatar ">
+            <div className="four">
+                <div className="const">
+                  <h1>Get a free consultation</h1>
+                  <Booking />
+                </div>
+              </div>
+            </div>
           </div>
         </div>
-        <div className="socials">
-          <ul>
-            <li>
-              <a href="https://www.facebook.com/FlashGiftZone.BD?mibextid=ZbWKwL">
-                {fb}
-              </a>
-            </li>
-            <li>
-              <a href="https://www.instagram.com/grow_with_sayed/?igshid=MzRlODBiNWFlZA%3D%3D">
-                {insta}
-              </a>
-            </li>
-          </ul>
-        </div>
-        {/* <div className="hero_mail">
-          <a className="line_anim" href="mailto:sayedshohagrahman@gmail.com">
-            Sayedshohagrahman@gmail.com
-          </a>
-        </div> */}
       </div>
     </div>
   );

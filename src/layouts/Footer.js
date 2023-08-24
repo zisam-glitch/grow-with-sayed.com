@@ -12,17 +12,12 @@ const Footer = () => {
                 <span>Connect</span>
                 <ul>
                   <li>
-                    <a href="#">
+                    <a href="https://www.facebook.com/FlashGiftZone.BD?mibextid=ZbWKwL">
                       <i className="icon-facebook-1" />
                     </a>
                   </li>
                   <li>
-                    <a href="#">
-                      <i className="icon-twitter-1" />
-                    </a>
-                  </li>
-                  <li>
-                    <a href="#">
+                    <a href="https://instagram.com/grow_with_sayed?igshid=MzRlODBiNWFlZA==">
                       <i className="icon-instagram-3" />
                     </a>
                   </li>
@@ -32,37 +27,19 @@ const Footer = () => {
             <div className="bottom">
               <div className="left">
                 <p>
-                  Designed with love by{" "}
+                The entirety of this site is protected by copyright © {new Date().getFullYear()}{" "}
                   <a
                     className="line_anim"
                     href="https://themeforest.net/user/codeefly"
                     target="_blank"
                     rel="noreferrer"
                   >
-                    Codeefly
+                    Grow With Sayed
                   </a>{" "}
-                  © {new Date().getFullYear()}
+                  
                 </p>
               </div>
-              <div className="right">
-                <ul>
-                  <li>
-                    <a className="line_anim" href="#">
-                      Terms &amp; Condition
-                    </a>
-                  </li>
-                  <li>
-                    <a className="line_anim" href="#">
-                      Privacy Policy
-                    </a>
-                  </li>
-                  <li>
-                    <a className="line_anim" href="#">
-                      Support
-                    </a>
-                  </li>
-                </ul>
-              </div>
+              
             </div>
             <span
               className="border moving_effect"

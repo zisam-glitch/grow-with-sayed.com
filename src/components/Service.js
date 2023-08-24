@@ -68,7 +68,7 @@ const Service = ({ dark }) => {
                   <div className="title">
                     <h3>Instagram account growth</h3>
                     <span className="price">
-                      Starts from <span>$20</span>
+                      Starts from <span>$25</span>
                     </span>
                   </div>
                   <div className="text">
@@ -83,7 +83,7 @@ const Service = ({ dark }) => {
                   />
                   <img
                     className="popup_service_image"
-                    src="img/service/1.jpg"
+                    src="img/service/1.png"
                     alt="aali image"
                   />
                 </div>
@@ -94,7 +94,7 @@ const Service = ({ dark }) => {
                         <img src="img/thumbs/4-2.jpg" alt="" />
                         <div
                           className="main"
-                          data-img-url="img/service/1.jpg"
+                          data-img-url="img/service/1.png"
                         />
                       </div>
                       <div className="main_title">
@@ -164,7 +164,7 @@ const Service = ({ dark }) => {
                   />
                   <img
                     className="popup_service_image"
-                    src="img/service/3.jpg"
+                    src="img/service/3.png"
                     alt="aali image"
                   />
                 </div>
@@ -175,7 +175,7 @@ const Service = ({ dark }) => {
                         <img src="img/thumbs/4-2.jpg" alt="aali image" />
                         <div
                           className="main"
-                          data-img-url="img/service/3.jpg"
+                          data-img-url="img/service/3.png"
                         />
                       </div>
                       <div className="main_title">
@@ -253,7 +253,7 @@ const Service = ({ dark }) => {
                   />
                   <img
                     className="popup_service_image"
-                    src="img/service/2.jpg"
+                    src="img/service/2.png"
                     alt="aali image"
                   />
                 </div>
@@ -264,7 +264,7 @@ const Service = ({ dark }) => {
                         <img src="img/thumbs/4-2.jpg" alt="aali image" />
                         <div
                           className="main"
-                          data-img-url="img/service/2.jpg"
+                          data-img-url="img/service/2.png"
                         />
                       </div>
                       <div className="main_title">
@@ -331,7 +331,7 @@ const Service = ({ dark }) => {
                   />
                   <img
                     className="popup_service_image"
-                    src="img/service/4.jpg"
+                    src="img/service/4.png"
                     alt="aali image"
                   />
                 </div>
@@ -342,7 +342,7 @@ const Service = ({ dark }) => {
                         <img src="img/thumbs/4-2.jpg" alt="aali image" />
                         <div
                           className="main"
-                          data-img-url="img/service/4.jpg"
+                          data-img-url="img/service/4.png"
                         />
                       </div>
                       <div className="main_title">

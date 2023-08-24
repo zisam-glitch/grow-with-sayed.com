@@ -22,7 +22,8 @@ const Layout = ({ children, headName, dark }) => {
   return (
     <Fragment>
       <Head>
-        <title>Aali | {headName ? headName : "Home"} </title>
+        <title>Grow With Sayed | {headName ? headName : "Instagram Marketer"} </title>
+        <link rel="icon" type="img/logo/logo.png" href="img/logo/fav.png"></link>
       </Head>
       <Preloader />
       <div className="aali_tm_all_wrap" data-magic-cursor="show">

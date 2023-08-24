@@ -43,6 +43,7 @@ const Contact = () => {
     }, 2000);
   };
   return (
+    <div className="fromm">
     <form
       action="/"
       method="post"
@@ -97,10 +98,11 @@ const Contact = () => {
       </div>
       <div className="aali_tm_button">
         <a id="send_message" href="#" onClick={(e) => onSubmit(e)}>
-          <span>Submit Message {msgSent}</span>
+          <span>Book now {msgSent}</span>
         </a>
       </div>
     </form>
+    </div>
   );
 };
 

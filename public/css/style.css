@@ -693,14 +693,16 @@ h6 { font-size: 16px; }
 	height: 100%;
 	background-color: #ea4343;
 }
-.aali_tm_hero .avatar .four{
+.four{
 	position: absolute;
+	background-color: white;
 	width: 440px;
 	height: 470px;
 	top: 50%;
 	transform: translateY(-50%);
 	right: 20px;
-	z-index: -1;
+	z-index: 9999;
+	border-radius: 5px;
 }
 .aali_tm_hero .avatar .four .in{
 	position: absolute;
@@ -742,6 +744,7 @@ h6 { font-size: 16px; }
 	top: 50%;
 	transform: translateY(-50%);
 	left: 50px;
+	z-index: 9999;
 }
 .aali_tm_hero .socials ul{
 	margin: 0px;
@@ -791,6 +794,7 @@ h6 { font-size: 16px; }
 	clear: both;
 	float: left;
 	padding: 170px 0px 170px 0px;
+	background-color: #f4f5fe;
 }
 .aali_tm_about .about_inner{
 	width: 100%;
@@ -941,7 +945,7 @@ h6 { font-size: 16px; }
 	clear: both;
 	float: left;
 	background-color: #ba3c3c;
-	padding: 160px 0px 557px 0px;
+	padding: 160px 0px 160px 0px;
 	position: relative;
 }
 .aali_tm_skills .skills_inner{
@@ -2914,9 +2918,56 @@ body.intro .loader_line:after{
 }
 
 .const{
-	background-color: white;
 	padding: 40px;
 }
+.const h1{
+	padding: 20px 0 30px 0px;
+    text-align: center;
+    font-size: 30px;
+}
+
+.fromm .contact_form .input_list{
+	width: 100%;
+	height: auto;
+	clear: both;
+	float: left;
+	padding-bottom: 14px;
+}
+.fromm .contact_form .input_list ul{
+	margin: 0px;
+	list-style-type: none;
+}
+.fromm .contact_form .input_list ul li{
+	margin: 0px 0px 18px 0px;
+	float: left;
+	width: 100%;
+}
+.fromm .contact_form .input_list ul li input{
+	width: 100%;
+	height: 50px;
+	border-radius: 10px;
+	padding: 25px !important;
+	background-color: #f4f5fe;
+	border: none;
+	font-family: "Open Sans";
+	font-size: 16px;
+	color: #aaa6b2;
+	letter-spacing: 0px;
+}
+.fromm .contact_form .input_list ul li input:focus{
+	outline: none;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+/*     display: none; <- Crashes Chrome on hover */
+    -webkit-appearance: none;
+    margin: 0; /* <-- Apparently some margin are still there even though it's hidden */
+}
+
+input[type=number] {
+    -moz-appearance:textfield; /* Firefox */
+}
+
 /*---------------------------------------------------*/
 /*	16) AALI MEDIA QUERIES (FOR SMALL DEVICES)
 /*---------------------------------------------------*/
@@ -3106,3 +3157,100 @@ body.intro .loader_line:after{
 	.aali_tm_modalbox .news_popup_informations .details .title{font-size: 22px;}
 	.aali_tm_modalbox .service_popup_informations .main_title h3{font-size: 22px;}
 }
+.Aspp {
+    z-index: 99;
+  }
+  .sub-title{
+	text-align: center;
+	font-size: 24px;
+	color: white;
+	padding-bottom: 7px;
+	background-color: #ba3c3c;
+	font-family: "Josefin Sans";
+  }
+  .titles {
+    text-align: center;
+	background-color: #ba3c3c;
+	font-size: 50px;
+	color: white;
+	padding-top: 7px;
+	background-color: #ba3c3c;
+	font-family: "Josefin Sans";
+  }
+  
+  .tabs {
+    list-style: none;
+    display: flex;
+	background-color: #ba3c3c;
+	padding: 78px 0 240px 0;
+	justify-content: center;
+	font-family: "Josefin Sans";
+	
+  }
+  
+  .tabs .tab {
+    text-align: center;
+	font-family: "Josefin Sans";
+	color: rgba(255, 255, 255, 0.664);
+	padding: 0 15px;
+	font-weight: 700;
+	font-size: 22px;
+	cursor: pointer;
+
+  }
+  
+  .tabs .tab:hover {
+    color: white;
+  }
+  
+  .tabs .tab.selected {
+    color: #fff;
+  }
+  
+  .tabs .tab.selected:hover {
+    background: none;
+  }
+  
+  .tab__content {
+	max-width: 1400px;
+	width: 100%;
+	margin: auto;
+    padding: 1em 2em;
+    color: #525151;
+    font-family: "Economica", sans-serif;
+    font-size: 20px;
+	margin-top: -160px;  }
+  
+  .tab__icon {
+    padding-left: 0.5em;
+  }
+  
+  .subtitle {
+    color: #1f1f1f;
+	font-family: "Josefin Sans";
+  }
+  .tabcard ul{
+	columns: 3;
+	column-gap: 40px;
+	list-style-type: none;
+  }
+
+  .tabcard ul li{
+	margin-bottom: 40px;
+	break-inside: avoid;
+
+  }
+
+  .cardtab a img{
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	border-radius: 5px;
+  }
+  .cardtab a video{
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	border-radius: 5px;
+  }
+  

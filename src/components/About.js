@@ -9,7 +9,7 @@ const About = () => {
           <div className="left">
             <div className="image">
               <img src="img/thumbs/45-49.jpg" alt="aali image" />
-              <div className="main" data-img-url="img/about/1.jpg" />
+              <div className="main" data-img-url="img/about/1.jpeg" />
               <span
                 className="square moving_effect"
                 data-direction="y"
