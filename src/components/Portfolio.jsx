@@ -102,7 +102,7 @@ const Portfolo = () => {
               <li>
                 <div className="cardtab">
                   <a  >
-                    <img src="img/portfolio/5.6.jpg" alt="" />
+                    <img src="img/portfolio/5.7.jpg" alt="" />
                   </a>
                 </div>
               </li>
