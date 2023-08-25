@@ -94,7 +94,7 @@ const Portfolo = () => {
                       loop
                       muted
                       autoplay="autoplay"
-                      src="img/portfolio/2.0.mov"
+                      src="img/portfolio/2.1.mp4"
                     ></video>
                   </a>
                 </div>
