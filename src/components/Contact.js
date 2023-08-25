@@ -20,10 +20,10 @@ const Contact = () => {
     } else {
       emailjs
         .send(
-          "service_ygjtsvn", // service id
-          "template_rzizy2q", // template id
+          "service_7j2q9u5", // service id
+          "template_f9nsg2i", // template id
           mailData,
-          "z4QBvFocTTCJtrpLP" // public api
+          "czNWW2UlwlqT2eYs-" // public api
         )
         .then(
           (response) => {

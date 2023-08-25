@@ -6,30 +6,30 @@ const Contact = () => {
   const [mailData, setMailData] = useState({
     name: "",
     email: "",
-    message: "",
+    topic: "",
   });
-  const { name, email, date } = mailData;
+  const { name, email, topic } = mailData;
   const [error, setError] = useState(null);
   const onChange = (e) =>
     setMailData({ ...mailData, [e.target.name]: e.target.value });
   const onSubmit = (e) => {
     e.preventDefault();
-    if (name.length === 0 || email.length === 0 || message.length === 0) {
+    if (name.length === 0 || email.length === 0 || topic.length === 0) {
       setError(true);
       clearError();
     } else {
       emailjs
         .send(
-          "service_ygjtsvn", // service id
-          "template_rzizy2q", // template id
+          "service_7j2q9u5", // service id
+          "template_v07oovg", // template id
           mailData,
-          "z4QBvFocTTCJtrpLP" // public api
+          "czNWW2UlwlqT2eYs-" // public api
         )
         .then(
           (response) => {
             setError(false);
             clearError();
-            setMailData({ name: "", email: "", message: "" });
+            setMailData({ name: "", email: "", topic: "" });
           },
           (err) => {
             console.log(err.text);
@@ -86,12 +86,12 @@ const Contact = () => {
           </li>
           <li>
             <input
-              id="email"
-              type="date"
-              placeholder="Your Email"
-              name="email"
+              id="topic"
+              type="text"
+              placeholder="What Are You Looking For"
+              name="topic"
               onChange={(e) => onChange(e)}
-              value={date}
+              value={topic}
             />
           </li>
         </ul>
