@@ -333,7 +333,7 @@ const Portfolo = () => {
                       loop
                       muted
                       autoplay="autoplay"
-                      src="https://res.cloudinary.com/db1i46uiv/video/upload/c_scale,q_100,w_400/v1693074728/2.3_zopah7.mp4"
+                      src="https://res.cloudinary.com/db1i46uiv/video/upload/c_scale,q_50,w_400/v1693074728/2.3_zopah7.mp4"
                     ></video>
                   </a>
                 </div>
