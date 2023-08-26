@@ -13,77 +13,77 @@ const Portfolo = () => {
               <li>
                 <div className="cardtab">
                   <a href="https://marspurifier.com/" >
-                    <img src="https://res.cloudinary.com/db1i46uiv/image/upload/v1693074698/1.1_hffh2b.jpg" alt="" />
+                    <img src="https://res.cloudinary.com/db1i46uiv/image/upload/c_scale,w_400/v1693074698/1.1_hffh2b.jpg" alt="" />
                   </a>
                 </div>
               </li>
               <li>
                 <div className="cardtab">
                   <a  >
-                    <img src="https://res.cloudinary.com/db1i46uiv/image/upload/v1693074712/5.1_yafdd4.jpg" alt="" />
+                    <img src="https://res.cloudinary.com/db1i46uiv/image/upload/c_scale,w_400/v1693074712/5.1_yafdd4.jpg" alt="" />
                   </a>
                 </div>
               </li>
               <li>
                 <div className="cardtab">
                   <a href="https://www.parishdental.co.uk/">
-                    <img src="https://res.cloudinary.com/db1i46uiv/image/upload/v1693074702/1.2_uszdxe.jpg" alt="" />
+                    <img src="https://res.cloudinary.com/db1i46uiv/image/upload/c_scale,w_400/v1693074702/1.2_uszdxe.jpg" alt="" />
                   </a>
                 </div>
               </li>
               <li>
                 <div className="cardtab">
                   <a  >
-                    <img src="https://res.cloudinary.com/db1i46uiv/image/upload/v1693074709/5.2_ebqzgn.jpg" alt="" />
+                    <img src="https://res.cloudinary.com/db1i46uiv/image/upload/c_scale,w_400/v1693074709/5.2_ebqzgn.jpg" alt="" />
                   </a>
                 </div>
               </li>
               <li>
                 <div className="cardtab">
                   <a href="https://www.novaskinclinicnelson.co.uk/">
-                    <img src="https://res.cloudinary.com/db1i46uiv/image/upload/v1693074708/1.3_gofnpz.jpg" alt="" />
+                    <img src="https://res.cloudinary.com/db1i46uiv/image/upload/c_scale,w_400/v1693074708/1.3_gofnpz.jpg" alt="" />
                   </a>
                 </div>
               </li>
               <li>
                 <div className="cardtab">
                   <a href="https://emergency247dentist.co.uk/">
-                    <img src="https://res.cloudinary.com/db1i46uiv/image/upload/v1693074703/1.4_kyeuoa.jpg" alt="" />
+                    <img src="https://res.cloudinary.com/db1i46uiv/image/upload/c_scale,w_400/v1693074703/1.4_kyeuoa.jpg" alt="" />
                   </a>
                 </div>
               </li>
               <li>
                 <div className="cardtab">
                   <a  >
-                    <img src="https://res.cloudinary.com/db1i46uiv/image/upload/v1693074712/5.3_ovt9ks.jpg" alt="" />
+                    <img src="https://res.cloudinary.com/db1i46uiv/image/upload/c_scale,w_400/v1693074712/5.3_ovt9ks.jpg" alt="" />
                   </a>
                 </div>
               </li>
               <li>
                 <div className="cardtab">
                   <a href="https://cdtrainingacademy.co.uk/">
-                    <img src="https://res.cloudinary.com/db1i46uiv/image/upload/v1693074706/1.5_czn1rv.jpg" alt="" />
+                    <img src="https://res.cloudinary.com/db1i46uiv/image/upload/c_scale,w_400/v1693074706/1.5_czn1rv.jpg" alt="" />
                   </a>
                 </div>
               </li>
               <li>
                 <div className="cardtab">
                   <a  >
-                    <img src="https://res.cloudinary.com/db1i46uiv/image/upload/v1693074712/5.4_baetp1.jpg" alt="" />
+                    <img src="https://res.cloudinary.com/db1i46uiv/image/upload/c_scale,w_400/v1693074712/5.4_baetp1.jpg" alt="" />
                   </a>
                 </div>
               </li>
               <li>
                 <div className="cardtab">
                   <a  >
-                    <img src="https://res.cloudinary.com/db1i46uiv/image/upload/v1693074715/5.6_mluajn.jpg" alt="" />
+                    <img src="https://res.cloudinary.com/db1i46uiv/image/upload/c_scale,w_400/v1693074715/5.6_mluajn.jpg" alt="" />
                   </a>
                 </div>
               </li>
               <li>
                 <div className="cardtab">
                   <a  >
-                    <img src="https://res.cloudinary.com/db1i46uiv/image/upload/v1693074715/5.5_vvcmjd.jpg" alt="" />
+                    <img src="https://res.cloudinary.com/db1i46uiv/image/upload/c_scale,w_400/v1693074715/5.5_vvcmjd.jpg" alt="" />
                   </a>
                 </div>
               </li>
@@ -94,7 +94,7 @@ const Portfolo = () => {
                       loop
                       muted
                       autoplay="autoplay"
-                      src="https://res.cloudinary.com/db1i46uiv/video/upload/v1693074750/2.0_ucfpfi.mov"
+                      src="https://res.cloudinary.com/db1i46uiv/video/upload/c_scale,q_35,w_400/v1693074750/2.0_ucfpfi.mov"
                     ></video>
                   </a>
                 </div>
@@ -102,21 +102,21 @@ const Portfolo = () => {
               <li>
                 <div className="cardtab">
                   <a  >
-                    <img src="https://res.cloudinary.com/db1i46uiv/image/upload/v1693074719/5.7_ukfamf.jpg" alt="" />
+                    <img src="https://res.cloudinary.com/db1i46uiv/image/upload/c_scale,w_400/v1693074721/5.9_qpkx4f.jpg" alt="" />
                   </a>
                 </div>
               </li>
               <li>
                 <div className="cardtab">
                   <a  >
-                    <img src="https://res.cloudinary.com/db1i46uiv/image/upload/v1693074721/5.9_qpkx4f.jpg" alt="" />
+                    <img src="https://res.cloudinary.com/db1i46uiv/image/upload/c_scale,w_400/v1693074719/5.7_ukfamf.jpg" alt="" />
                   </a>
                 </div>
               </li>
               <li>
                 <div className="cardtab">
                   <a  >
-                    <img src="https://res.cloudinary.com/db1i46uiv/image/upload/v1693074735/5.16_pe3j3u.jpg" alt="" />
+                    <img src="https://res.cloudinary.com/db1i46uiv/image/upload/c_scale,w_400/v1693074735/5.16_pe3j3u.jpg" alt="" />
                   </a>
                 </div>
               </li>
