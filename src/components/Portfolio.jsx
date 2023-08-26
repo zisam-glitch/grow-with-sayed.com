@@ -281,42 +281,42 @@ const Portfolo = () => {
               <li>
                 <div className="cardtab">
                   <a  >
-                    <img src="img/portfolio/1.01.jpg" alt="" />
+                    <img src="https://res.cloudinary.com/db1i46uiv/image/upload/c_scale,w_400/v1693074707/1.06_l3vktu.jpg" alt="" />
                   </a>
                 </div>
               </li>
               <li>
                 <div className="cardtab">
                   <a  >
-                    <img src="img/portfolio/1.02.jpg" alt="" />
+                    <img src="https://res.cloudinary.com/db1i46uiv/image/upload/c_scale,w_400/v1693074700/1.05_l1liju.jpg" alt="" />
                   </a>
                 </div>
               </li>
               <li>
                 <div className="cardtab">
                   <a  >
-                    <img src="img/portfolio/1.03.jpg" alt="" />
+                    <img src="https://res.cloudinary.com/db1i46uiv/image/upload/c_scale,w_400/v1693074703/1.07_gm1v2l.jpg" alt="" />
                   </a>
                 </div>
               </li>
               <li>
                 <div className="cardtab">
                   <a  >
-                    <img src="img/portfolio/1.04.jpg" alt="" />
+                    <img src="https://res.cloudinary.com/db1i46uiv/image/upload/c_scale,w_400/v1693074697/1.04_c2kmwu.jpg" alt="" />
                   </a>
                 </div>
               </li>
               <li>
                 <div className="cardtab">
                   <a  >
-                    <img src="img/portfolio/1.05.jpg" alt="" />
+                    <img src="https://res.cloudinary.com/db1i46uiv/image/upload/c_scale,w_400/v1693074696/1.02_hteqrk.jpg" alt="" />
                   </a>
                 </div>
               </li>
               <li>
                 <div className="cardtab">
                   <a>
-                    <img src="img/portfolio/1.06.jpg" alt="" />
+                    <img src="https://res.cloudinary.com/db1i46uiv/image/upload/c_scale,w_4000/v1693074696/1.03_hsjctb.jpg" alt="" />
                   </a>
                 </div>
               </li>
@@ -333,7 +333,7 @@ const Portfolo = () => {
                       loop
                       muted
                       autoplay="autoplay"
-                      src="img/portfolio/2.0.mov"
+                      src="https://res.cloudinary.com/db1i46uiv/video/upload/c_scale,q_100,w_400/v1693074728/2.3_zopah7.mp4"
                     ></video>
                   </a>
                 </div>
@@ -345,7 +345,7 @@ const Portfolo = () => {
                       loop
                       muted
                       autoplay="autoplay"
-                      src="img/portfolio/2.1.mp4"
+                      src="https://res.cloudinary.com/db1i46uiv/video/upload/c_scale,q_50,w_400/v1693074750/2.0_ucfpfi.mov"
                     ></video>
                   </a>
                 </div>
@@ -358,7 +358,7 @@ const Portfolo = () => {
                       loop
                       muted
                       autoplay="autoplay"
-                      src="img/portfolio/2.3.mp4"
+                      src="https://res.cloudinary.com/db1i46uiv/video/upload/c_scale,q_50,w_400/v1693074760/2.1_jev0ox.mp4"
                     ></video>
                   </a>
                 </div>
