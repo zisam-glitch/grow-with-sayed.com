@@ -129,35 +129,35 @@ const Portfolo = () => {
               <li>
                 <div className="cardtab">
                   <a href="https://marspurifier.com/" >
-                    <img src="https://res.cloudinary.com/db1i46uiv/image/upload/v1693074698/1.1_hffh2b.jpg" alt="" />
+                    <img src="https://res.cloudinary.com/db1i46uiv/image/upload/c_scale,w_400/v1693074698/1.1_hffh2b.jpg" alt="" />
                   </a>
                 </div>
               </li>
               <li>
                 <div className="cardtab">
                 <a href="https://www.parishdental.co.uk/">
-                    <img src="https://res.cloudinary.com/db1i46uiv/image/upload/v1693074702/1.2_uszdxe.jpg" alt="" />
+                    <img src="https://res.cloudinary.com/db1i46uiv/image/upload/c_scale,w_400/v1693074702/1.2_uszdxe.jpg" alt="" />
                   </a>
                 </div>
               </li>
               <li>
                 <div className="cardtab">
                 <a href="https://www.novaskinclinicnelson.co.uk/">
-                    <img src="https://res.cloudinary.com/db1i46uiv/image/upload/v1693074708/1.3_gofnpz.jpg" alt="" />
+                    <img src="https://res.cloudinary.com/db1i46uiv/image/upload/c_scale,w_400/v1693074708/1.3_gofnpz.jpg" alt="" />
                   </a>
                 </div>
               </li>
               <li>
                 <div className="cardtab">
                 <a href="https://emergency247dentist.co.uk/">
-                    <img src="https://res.cloudinary.com/db1i46uiv/image/upload/v1693074703/1.4_kyeuoa.jpg" alt="" />
+                    <img src="https://res.cloudinary.com/db1i46uiv/image/upload/c_scale,w_400/v1693074703/1.4_kyeuoa.jpg" alt="" />
                   </a>
                 </div>
               </li>
               <li>
                 <div className="cardtab">
                 <a href="https://cdtrainingacademy.co.uk/">
-                    <img src="https://res.cloudinary.com/db1i46uiv/image/upload/v1693074706/1.5_czn1rv.jpg" alt="" />
+                    <img src="https://res.cloudinary.com/db1i46uiv/image/upload/c_scale,w_400/v1693074706/1.5_czn1rv.jpg" alt="" />
                   </a>
                 </div>
               </li>
@@ -170,105 +170,105 @@ const Portfolo = () => {
               <li>
                 <div className="cardtab">
                   <a  >
-                    <img src="img/portfolio/5.1.jpg" alt="" />
+                    <img src="https://res.cloudinary.com/db1i46uiv/image/upload/c_scale,w_400/v1693074712/5.1_yafdd4.jpg" alt="" />
                   </a>
                 </div>
               </li>
               <li>
                 <div className="cardtab">
                   <a  >
-                    <img src="img/portfolio/5.2.jpg" alt="" />
+                    <img src="https://res.cloudinary.com/db1i46uiv/image/upload/c_scale,w_400/v1693074709/5.2_ebqzgn.jpg" alt="" />
                   </a>
                 </div>
               </li>
               <li>
                 <div className="cardtab">
                   <a  >
-                    <img src="img/portfolio/5.3.jpg" alt="" />
+                    <img src="https://res.cloudinary.com/db1i46uiv/image/upload/c_scale,w_400/v1693074712/5.3_ovt9ks.jpg" alt="" />
                   </a>
                 </div>
               </li>
               <li>
                 <div className="cardtab">
                   <a  >
-                    <img src="img/portfolio/5.4.jpg" alt="" />
+                    <img src="https://res.cloudinary.com/db1i46uiv/image/upload/c_scale,w_400/v1693074712/5.4_baetp1.jpg" alt="" />
                   </a>
                 </div>
               </li>
               <li>
                 <div className="cardtab">
                   <a  >
-                    <img src="img/portfolio/5.5.jpg" alt="" />
+                    <img src="https://res.cloudinary.com/db1i46uiv/image/upload/c_scale,w_400/v1693074715/5.5_vvcmjd.jpg" alt="" />
                   </a>
                 </div>
               </li>
               <li>
                 <div className="cardtab">
                   <a  >
-                    <img src="img/portfolio/5.6.jpg" alt="" />
+                    <img src="https://res.cloudinary.com/db1i46uiv/image/upload/c_scale,w_400/v1693074715/5.6_mluajn.jpg" alt="" />
                   </a>
                 </div>
               </li>
               <li>
                 <div className="cardtab">
                   <a  >
-                    <img src="img/portfolio/5.7.jpg" alt="" />
+                    <img src="https://res.cloudinary.com/db1i46uiv/image/upload/c_scale,w_400/v1693074719/5.7_ukfamf.jpg" alt="" />
                   </a>
                 </div>
               </li>
               <li>
                 <div className="cardtab">
                   <a  >
-                    <img src="img/portfolio/5.8.jpg" alt="" />
+                    <img src="https://res.cloudinary.com/db1i46uiv/image/upload/c_scale,w_400/v1693074735/5.16_pe3j3u.jpg" alt="" />
                   </a>
                 </div>
               </li>
               <li>
                 <div className="cardtab">
                   <a  >
-                    <img src="img/portfolio/5.9.jpg" alt="" />
+                    <img src="https://res.cloudinary.com/db1i46uiv/image/upload/c_scale,w_400/v1693074721/5.9_qpkx4f.jpg" alt="" />
                   </a>
                 </div>
               </li>
               <li>
                 <div className="cardtab">
                   <a  >
-                    <img src="img/portfolio/5.10.jpg" alt="" />
+                    <img src="https://res.cloudinary.com/db1i46uiv/image/upload/c_scale,w_400/v1693074726/5.10_d4nlwj.jpg" alt="" />
                   </a>
                 </div>
               </li>
               <li>
                 <div className="cardtab">
                   <a  >
-                    <img src="img/portfolio/5.11.jpg" alt="" />
+                    <img src="https://res.cloudinary.com/db1i46uiv/image/upload/c_scale,w_400/v1693074722/5.11_q9czdx.jpg" alt="" />
                   </a>
                 </div>
               </li>
               <li>
                 <div className="cardtab">
                   <a  >
-                    <img src="img/portfolio/5.12.jpg" alt="" />
+                    <img src="https://res.cloudinary.com/db1i46uiv/image/upload/c_scale,w_400/v1693074729/5.12_ykwtcz.jpg" alt="" />
                   </a>
                 </div>
               </li>
               <li>
                 <div className="cardtab">
                   <a  >
-                    <img src="img/portfolio/5.13.jpg" alt="" />
+                    <img src="https://res.cloudinary.com/db1i46uiv/image/upload/c_scale,w_400/v1693074730/5.13_vn1e8f.jpg" alt="" />
                   </a>
                 </div>
               </li>
               <li>
                 <div className="cardtab">
                   <a  >
-                    <img src="img/portfolio/5.14.jpg" alt="" />
+                    <img src="https://res.cloudinary.com/db1i46uiv/image/upload/c_scale,w_400/v1693074729/5.14_hvknge.jpg" alt="" />
                   </a>
                 </div>
               </li>
               <li>
                 <div className="cardtab">
                   <a  >
-                    <img src="img/portfolio/5.15.jpg" alt="" />
+                    <img src="https://res.cloudinary.com/db1i46uiv/image/upload/c_scale,w_400/v1693074733/5.15_hqpi2p.jpg" alt="" />
                   </a>
                 </div>
               </li>
