@@ -130,7 +130,7 @@ const Home = () => {
       <a href="http://wa.me/8801639501551">
         <div className="btn-whatsapp-pulse">
           <img
-            src="https://res.cloudinary.com/db1i46uiv/image/upload/v1693166219/ezgif.com-gif-maker_hxucnh.png"
+            src="https://res.cloudinary.com/db1i46uiv/image/upload/v1693261444/ezgif.com-gif-maker_2_m6wyzw.png"
             alt=""
           />
         </div>
