@@ -33,14 +33,42 @@ const Testimonial = () => {
               <SwiperSlide className="item">
                 <div className="text">
                   <p>
-                    I had a problem finding something, asked the support team,
-                    got a reply and a solution within a few minutes. Brilliant
-                    support! Very happy with the website I bought.
+                    "Amazing, super quick work! - Very prompt responses and
+                    great customer service. Sayed understood exactly what I was
+                    looking for and was able to deliver great quality work with
+                    fast delivery. I plan on continue working with Sayed as He
+                    have been great to work with."
                   </p>
                 </div>
                 <div className="name">
                   <h3>
-                    Tom Anderson, <span>Customer</span>
+                  Angl, <span>Creative</span>
+                  </h3>
+                </div>
+              </SwiperSlide>
+              <SwiperSlide className="item">
+                <div className="text">
+                  <p>
+                    "Sayed did a great job, he communicates on time. We are
+                    happy with the results. Will work with Sayed again!"
+                  </p>
+                </div>
+                <div className="name">
+                  <h3>
+                    Rom Aron, <span>Customer</span>
+                  </h3>
+                </div>
+              </SwiperSlide>
+              <SwiperSlide className="item">
+                <div className="text">
+                  <p>
+                    "Sayed grew my client's accounts consistently. Thank you for
+                    your hard work!"
+                  </p>
+                </div>
+                <div className="name">
+                  <h3>
+                    Erson Hers, <span>Customer</span>
                   </h3>
                 </div>
               </SwiperSlide>
@@ -83,13 +111,13 @@ const Testimonial = () => {
             </div>
           </div>
         </div>
-        <span className="border">
+        {/* <span className="border">
           <span
             className="in moving_effect"
             data-direction="x"
             data-reverse="yes"
           />
-        </span>
+        </span> */}
         <span
           className="square moving_effect"
           data-direction="y"

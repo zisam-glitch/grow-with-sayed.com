@@ -27,19 +27,16 @@ const Footer = () => {
             <div className="bottom">
               <div className="left">
                 <p>
-                The entirety of this site is protected by copyright © {new Date().getFullYear()}{" "}
-                  <a
-                    className="line_anim"
-                    href="https://themeforest.net/user/codeefly"
-                    target="_blank"
-                    rel="noreferrer"
-                  >
+                  The entirety of this site is protected by copyright ©{" "}
+                  {new Date().getFullYear()}{" "}
+                  <a className="line_anim" target="_blank" rel="noreferrer">
                     Grow With Sayed
                   </a>{" "}
-                  
                 </p>
               </div>
-              
+              <div className="right left newsss">
+                <a href="/join-our-team" className="line_anim">Join Our Team</a>
+              </div>
             </div>
             <span
               className="border moving_effect"

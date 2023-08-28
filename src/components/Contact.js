@@ -51,16 +51,15 @@ const Contact = () => {
             data-text-align="center"
             data-color="dark"
           >
-            <span>Get in Touch</span>
-            <h3>Connect with Me with Confidence</h3>
+            <span>You've got questions?</span>
+            <h3>We've got answers!</h3>
           </div>
           <div className="contact_inner">
             <div className="left wow fadeInLeft" data-wow-duration="1s">
               <div className="text">
                 <p>
                   Please fill out the form on this section to contact with me.
-                  Or call between 9:00 a.m. and 8:00 p.m. ET, Monday through
-                  Friday
+                  Or call me 24/7.
                 </p>
               </div>
               <ul>
@@ -68,7 +67,9 @@ const Contact = () => {
                   <div className="list_inner">
                     {call}
                     <span>Call me</span>
+                    <a href="tel:+8801639501551">
                     <h3>+880 16395 01551</h3>
+                    </a>
                   </div>
                 </li>
                 <li>

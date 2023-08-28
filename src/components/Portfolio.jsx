@@ -4,8 +4,8 @@ import TabsPanel from "./tabs/TabsPanel";
 const Portfolo = () => {
   return (
     <div className="Aspp">
-      <h3 className="sub-title">Selected works</h3>
-      <h1 className="titles">Check my portfolio</h1>
+      {/* <h3 className="sub-title">Selected works</h3> */}
+      <h1 className="titles">Check My Portfolio</h1>
       <TabsPanel>
         <Tab title="All">
           <div className="tabcard">
@@ -123,7 +123,7 @@ const Portfolo = () => {
             </ul>
           </div>
         </Tab>
-        <Tab title="website">
+        <Tab title="Website">
           <div className="tabcard">
             <ul>
               <li>

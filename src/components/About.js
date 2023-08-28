@@ -36,7 +36,7 @@ const About = () => {
                   autoStart: true,
                   loop: true,
                   delay: 40,
-                  strings: ["Instagram marketer", "Web developr"],
+                  strings: ["Instagram Marketer", "Web Developer"],
                 }}
               /></h3>
             </div>

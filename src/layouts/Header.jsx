@@ -7,6 +7,7 @@ const Header = ({ dark }) => {
     window.addEventListener("scroll", scroll_);
   });
   return (
+    <>
     <div className="aali_tm_header">
       <div className="container">
         <div className="inner">
@@ -52,6 +53,8 @@ const Header = ({ dark }) => {
         </div>
       </div>
     </div>
+    
+    </>
   );
 };
 

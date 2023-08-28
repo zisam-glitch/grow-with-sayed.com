@@ -66,7 +66,7 @@ const Service = ({ dark }) => {
                     />
                   </span>
                   <div className="title">
-                    <h3>Instagram account growth</h3>
+                    <h3>Instagram Account Growth</h3>
                     <span className="price">
                       Starts from <span>$25</span>
                     </span>
@@ -98,7 +98,7 @@ const Service = ({ dark }) => {
                         />
                       </div>
                       <div className="main_title">
-                        <h3>Instagram account growth</h3>
+                        <h3>Instagram Account Growth</h3>
                         <span className="price">
                           Starts from <span>$20</span>
                         </span>

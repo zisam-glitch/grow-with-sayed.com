@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import { fb, insta, msg, twitter } from "../svgImage";
 import { parallax } from "../utilits";
-import Booking from "./booking"
+import Booking from "./booking";
 
 const Home = () => {
   const [text, setText] = useState(1);
@@ -51,7 +51,6 @@ const Home = () => {
                 </div>
               </div>
               <div className="aali_tm_down">
-             
                 <div className="down-icon white top_120">
                   <a className="anchor" href="#about">
                     <svg
@@ -91,11 +90,10 @@ const Home = () => {
                   </a>
                 </div>
               </div>
-            </div> 
+            </div>
             <div className="avatar parallax ">
-            
               <div className="main"></div>
-              
+
               <span className="one">
                 <span className="in layer" data-depth="0.14" />
               </span>
@@ -105,15 +103,23 @@ const Home = () => {
               <span className="three">
                 <span className="in layer" data-depth="0.22" />
               </span>
-              
+
               <span className="five">
                 <span className="in layer" data-depth="0.3" />
               </span>
             </div>
             <div className="avatar ">
-            <div className="four">
-                <div className="const">
-                  <h1>Get a free consultation</h1>
+              <div className="iphone">
+                <div className="bookingz">
+                  <div className="hero">
+                    <div className="logos">
+                      <img src="https://res.cloudinary.com/db1i46uiv/image/upload/v1693167592/kwoti43brdc_tvolfl.jpg" alt="" />
+                    <h4>Sayed Shohag</h4>
+                    </div>
+                    <div className="ttlls">
+                      <h4>Get free 30 min consultation</h4>
+                    </div>
+                  </div>
                   <Booking />
                 </div>
               </div>
@@ -121,6 +127,14 @@ const Home = () => {
           </div>
         </div>
       </div>
+      <a href="http://wa.me/8801639501551">
+        <div className="btn-whatsapp-pulse">
+          <img
+            src="https://res.cloudinary.com/db1i46uiv/image/upload/v1693166219/ezgif.com-gif-maker_hxucnh.png"
+            alt=""
+          />
+        </div>
+      </a>
     </div>
   );
 };

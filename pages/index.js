@@ -27,6 +27,7 @@ const Index = () => {
       {/* <Blog />
       <Counter /> */}
       <Contact />
+      
     </Layout>
   );
 };

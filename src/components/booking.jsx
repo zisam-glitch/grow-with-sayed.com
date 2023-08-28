@@ -43,66 +43,69 @@ const Contact = () => {
     }, 2000);
   };
   return (
-    <div className="fromm">
-    <form
-      action="/"
-      method="post"
-      className="contact_form"
-      id="contact_form"
-      autoComplete="off"
-      onSubmit={(e) => onSubmit(e)}
-    >
-      <div
-        className={error ? "empty_notice" : "returnmessage"}
-        style={{ display: error == null ? "none" : "block" }}
-      >
-        <span>
-          {error
-            ? "Please Fill Required Fields"
-            : "Your message has been received, We will contact you soon."}
-        </span>
+    <>
+      
+      <div className="frommzz ">
+        <form
+          action="/"
+          method="post"
+          className="contact_form"
+          id="contact_form"
+          autoComplete="off"
+          onSubmit={(e) => onSubmit(e)}
+        >
+          <div
+            className={error ? "empty_notice" : "returnmessage"}
+            style={{ display: error == null ? "none" : "block" }}
+          >
+            <span>
+              {error
+                ? "Please Fill Required Fields"
+                : "We will contact you soon."}
+            </span>
+          </div>
+          <div className="input_list">
+            <ul>
+              <li>
+                <input
+                  id="name"
+                  type="text"
+                  name="name"
+                  onChange={(e) => onChange(e)}
+                  value={name}
+                  placeholder="Your Name"
+                />
+              </li>
+              <li>
+                <input
+                  id="email"
+                  type="text"
+                  placeholder="Your Email"
+                  name="email"
+                  onChange={(e) => onChange(e)}
+                  value={email}
+                />
+              </li>
+              <li>
+                <input
+                  id="topic"
+                  type="text"
+                  placeholder="What Are You Looking For"
+                  name="topic"
+                  onChange={(e) => onChange(e)}
+                  value={topic}
+                />
+              </li>
+            </ul>
+          </div>
+          <div className="aali_tm_buttonzzz">
+            <a id="send_message" href="#" onClick={(e) => onSubmit(e)}>
+              <span>Book now {msgSent}</span>
+            </a>
+          </div>
+        </form>
       </div>
-      <div className="input_list">
-        <ul>
-          <li>
-            <input
-              id="name"
-              type="text"
-              name="name"
-              onChange={(e) => onChange(e)}
-              value={name}
-              placeholder="Your Name"
-            />
-          </li>
-          <li>
-            <input
-              id="email"
-              type="text"
-              placeholder="Your Email"
-              name="email"
-              onChange={(e) => onChange(e)}
-              value={email}
-            />
-          </li>
-          <li>
-            <input
-              id="topic"
-              type="text"
-              placeholder="What Are You Looking For"
-              name="topic"
-              onChange={(e) => onChange(e)}
-              value={topic}
-            />
-          </li>
-        </ul>
-      </div>
-      <div className="aali_tm_button">
-        <a id="send_message" href="#" onClick={(e) => onSubmit(e)}>
-          <span>Book now {msgSent}</span>
-        </a>
-      </div>
-    </form>
-    </div>
+    </>
   );
 };
 
