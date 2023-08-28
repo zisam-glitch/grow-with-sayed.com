@@ -24,6 +24,7 @@ const Layout = ({ children, headName, dark }) => {
       <Head>
         <title>Grow With Sayed | {headName ? headName : "Instagram Marketer"} </title>
         <link rel="icon" type="img/logo/logo.png" href="img/logo/fav.png"></link>
+        <link rel="image_src" href="https://res.cloudinary.com/db1i46uiv/image/upload/v1693259986/full_dlduoc.png"></link>
       </Head>
       <Preloader />
       <div className="aali_tm_all_wrap" data-magic-cursor="show">
