@@ -22,7 +22,7 @@ const Layout = ({ children, headName, dark }) => {
   return (
     <Fragment>
       <Head>
-        <title>Grow With Sayed | {headName ? headName : "Instagram Marketer"} </title>
+        <title>Grow With Sayed | {headName ? headName : "Instagram Marketer"} | Web Developer </title>
         <link rel="icon" type="img/logo/logo.png" href="img/logo/fav.png"></link>
         <link rel="image_src" href="https://res.cloudinary.com/db1i46uiv/image/upload/v1693261997/Asset_5-100_urv8fm.jpg"></link>
       </Head>
