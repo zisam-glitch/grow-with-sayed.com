@@ -5,7 +5,7 @@ const Portfolo = () => {
   return (
     <div className="Aspp">
       {/* <h3 className="sub-title">Selected works</h3> */}
-      <h1 className="titles">Check My Portfolio</h1>
+      <h1 className="titles">Selected Works</h1>
       <TabsPanel>
         <Tab title="All">
           <div className="tabcard">
