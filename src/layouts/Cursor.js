@@ -6,10 +6,11 @@ const Cursor = () => {
     customCursor();
   }, []);
   return (
-    <Fragment>
-      <div className="mouse-cursor cursor-outer" />
-      <div className="mouse-cursor cursor-inner" />
-    </Fragment>
+    <></>
+    // <Fragment>
+    //   <div className="mouse-cursor cursor-outer" />
+    //   <div className="mouse-cursor cursor-inner" />
+    // </Fragment>
   );
 };
 

@@ -51,7 +51,7 @@ const Contact = () => {
             data-text-align="center"
             data-color="dark"
           >
-            <span>You've got questions?</span>
+            <span className="bigspan">You've got questions?</span>
             <h3>We've got answers!</h3>
           </div>
           <div className="contact_inner">

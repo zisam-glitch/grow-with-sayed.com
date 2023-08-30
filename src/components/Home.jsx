@@ -114,10 +114,10 @@ const Home = () => {
                   <div className="hero">
                     <div className="logos">
                       <img src="https://res.cloudinary.com/db1i46uiv/image/upload/v1693167592/kwoti43brdc_tvolfl.jpg" alt="" />
-                    <h4>Sayed Shohag</h4>
+                    <h4>Sayed</h4>
                     </div>
                     <div className="ttlls">
-                      <h4>Get free 30 min consultation</h4>
+                      <h5>Get free 30 min consultation</h5>
                     </div>
                   </div>
                   <Booking />
@@ -130,7 +130,7 @@ const Home = () => {
       <a href="http://wa.me/8801639501551">
         <div className="btn-whatsapp-pulse">
           <img
-            src="https://res.cloudinary.com/db1i46uiv/image/upload/v1693261444/ezgif.com-gif-maker_2_m6wyzw.png"
+            src="https://res.cloudinary.com/db1i46uiv/image/upload/v1693336311/4017334_circle_logo_media_network_social_icon_xyuhkc.png"
             alt=""
           />
         </div>

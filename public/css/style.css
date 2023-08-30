@@ -2699,7 +2699,7 @@ input[type="number"] {
 /*	15) KURA CURSOR
 /*---------------------------------------------------*/
 
-.mouse-cursor {
+/* .mouse-cursor {
   position: fixed;
   left: 0;
   top: 0;
@@ -2751,7 +2751,7 @@ input[type="number"] {
   visibility: hidden;
   position: absolute;
   z-index: -1111;
-}
+} */
 
 /*---------------------------------------------------*/
 /*	 AALI INTRO
@@ -3516,6 +3516,7 @@ input[type="number"] {
   }
 }
 @media (max-width: 768px) {
+  
   .tabcard ul {
     columns: 1;
     column-gap: 40px;
@@ -3781,7 +3782,20 @@ input[type="number"] {
 @media (max-width: 768px) {
 
   .btn-whatsapp-pulse {
+    position: fixed;
+    bottom: 50px;
     right: 20px;
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    border-radius: 50%;
+    animation-name: pulse;
+    animation-duration: 1.5s;
+    animation-timing-function: ease-out;
+    animation-iteration-count: infinite;
+    z-index: 99;
   }
   
 
@@ -3818,7 +3832,7 @@ input[type="number"] {
 .iphone{
   background-image: url(https://res.cloudinary.com/db1i46uiv/image/upload/v1693081719/1.1_mwk1nw.png);
   position: absolute;
-  width: 400px;
+  width: 350px;
   height: 660px;
   top: 50%;
   right: 20px;
@@ -3830,8 +3844,8 @@ input[type="number"] {
   z-index: 9999;
 }
 .bookingz{
-  padding-left: 85px;
-  padding-right: 85px;
+  padding-left: 60px;
+  padding-right: 60px;
   padding-top: 95px;
 }
 .ttlls{
@@ -3855,7 +3869,7 @@ padding-top: 7px;
 .btn-whatsapp-pulse {
 	position: fixed;
 	bottom: 50px;
-	right: 20px;
+	right: 30px;
 	font-size: 40px;
 	display: flex;
 	justify-content: center;
@@ -3888,7 +3902,7 @@ padding-top: 7px;
 	content: "";
 	position: absolute;
 	border-radius: 50%;
-	padding: 25px;
+	padding: px;
 	border: 5px solid #ea4343;
 	opacity: 0.75;
 	animation-name: pulse-border;
@@ -4031,4 +4045,7 @@ input::-webkit-inner-spin-button {
 }
 .cv{
   padding-bottom: 25px;
+}
+.bigspan{
+  font-size: 35px !important;
 }
