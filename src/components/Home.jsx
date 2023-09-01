@@ -50,6 +50,7 @@ const Home = () => {
                   </a>
                 </div>
               </div>
+
               <div className="aali_tm_down">
                 <div className="down-icon white top_120">
                   <a className="anchor" href="#about">
@@ -90,6 +91,18 @@ const Home = () => {
                   </a>
                 </div>
               </div>
+              <div className="blxxss">
+                <div className="bookingz">
+                  <div className="hero">
+                    <div className="ttlls">
+                      <h5>
+                        Get <span>Free</span> 30 Min Consultation
+                      </h5>
+                    </div>
+                  </div>
+                  <Booking />
+                </div>
+              </div>
             </div>
             <div className="avatar parallax ">
               <div className="main"></div>
@@ -113,11 +126,16 @@ const Home = () => {
                 <div className="bookingz">
                   <div className="hero">
                     <div className="logos">
-                      <img src="https://res.cloudinary.com/db1i46uiv/image/upload/v1693167592/kwoti43brdc_tvolfl.jpg" alt="" />
-                    <h4>Sayed</h4>
+                      <img
+                        src="https://res.cloudinary.com/db1i46uiv/image/upload/v1693167592/kwoti43brdc_tvolfl.jpg"
+                        alt=""
+                      />
+                      <h4>Meet Sayed</h4>
                     </div>
                     <div className="ttlls">
-                      <h5>Get free 30 min consultation</h5>
+                      <h5>
+                        Get <span>Free</span> 30 Min Consultation
+                      </h5>
                     </div>
                   </div>
                   <Booking />
@@ -127,7 +145,9 @@ const Home = () => {
           </div>
         </div>
       </div>
-      <a href="http://wa.me/8801639501551">
+      <a
+       target="_blank"
+       href="http://wa.me/8801639501551">
         <div className="btn-whatsapp-pulse">
           <img
             src="https://res.cloudinary.com/db1i46uiv/image/upload/v1693336311/4017334_circle_logo_media_network_social_icon_xyuhkc.png"

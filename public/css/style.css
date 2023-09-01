@@ -2787,7 +2787,7 @@ input[type="number"] {
   text-align: center;
   position: relative;
 }
-.aali_tm_intro .left{
+.aali_tm_intro .left {
   width: 50%;
   height: 100%;
   display: flex;
@@ -3516,7 +3516,6 @@ input[type="number"] {
   }
 }
 @media (max-width: 768px) {
-  
   .tabcard ul {
     columns: 1;
     column-gap: 40px;
@@ -3780,7 +3779,6 @@ input[type="number"] {
   border-radius: 5px;
 }
 @media (max-width: 768px) {
-
   .btn-whatsapp-pulse {
     position: fixed;
     bottom: 50px;
@@ -3797,7 +3795,6 @@ input[type="number"] {
     animation-iteration-count: infinite;
     z-index: 99;
   }
-  
 
   .tabcard ul {
     columns: 1;
@@ -3808,28 +3805,28 @@ input[type="number"] {
     text-decoration: none;
     color: #ea4343;
     font-size: 15px;
-}
-.aali_tm_service .service_list .icon .inta {
+  }
+  .aali_tm_service .service_list .icon .inta {
     z-index: 9;
     position: absolute;
     width: 46px;
     left: 18%;
     top: 20px;
-}
+  }
   .tabs {
-	list-style: none;
-	display: flex;
-	flex-wrap: wrap;
-	background-color: #ba3c3c;
-	padding: 78px 0 240px 0;
-	justify-content: center;
-	font-family: "Josefin Sans";
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #ba3c3c;
+    padding: 78px 0 240px 0;
+    justify-content: center;
+    font-family: "Josefin Sans";
   }
-  .all{
-	grid-column: 1/ -1;
+  .all {
+    grid-column: 1/ -1;
   }
 }
-.iphone{
+.iphone {
   background-image: url(https://res.cloudinary.com/db1i46uiv/image/upload/v1693081719/1.1_mwk1nw.png);
   position: absolute;
   width: 350px;
@@ -3843,86 +3840,92 @@ input[type="number"] {
   background-size: contain;
   z-index: 9999;
 }
-.bookingz{
+.bookingz {
   padding-left: 60px;
   padding-right: 60px;
   padding-top: 95px;
 }
-.ttlls{
+.ttlls {
   text-align: center;
   padding: 40px 0 30px 0;
 }
-.logos{
+.ttlls h5 {
+  font-size: 24px;
+}
+.ttlls h5 span{
+  color: #e54b4b;
+}
+.logos {
   padding-bottom: 20px;
   display: flex;
   gap: 10px;
   align-items: center;
   justify-content: center;
 }
-.logos img{
-	border-radius: 50%;
+.logos img {
+  border-radius: 50%;
   width: 50px;
 }
-.logos h4{
-padding-top: 7px;
+.logos h4 {
+  padding-top: 7px;
 }
 .btn-whatsapp-pulse {
-	position: fixed;
-	bottom: 50px;
-	right: 30px;
-	font-size: 40px;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	text-decoration: none;
-	border-radius: 50%;
-	animation-name: pulse;
-	animation-duration: 1.5s;
-	animation-timing-function: ease-out;
-	animation-iteration-count: infinite;
+  position: fixed;
+  bottom: 50px;
+  right: 30px;
+  font-size: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  border-radius: 50%;
+  animation-name: pulse;
+  animation-duration: 1.5s;
+  animation-timing-function: ease-out;
+  animation-iteration-count: infinite;
   z-index: 99;
 }
 
 @keyframes pulse {
-	0% {
-		box-shadow: 0 0 0 0 rgba(234, 67, 67, 1);
-	}
-	80% {
-		box-shadow: 0 0 0 14px rgba(37, 211, 102, 0);
-	}
+  0% {
+    box-shadow: 0 0 0 0 rgba(234, 67, 67, 1);
+  }
+  80% {
+    box-shadow: 0 0 0 14px rgba(37, 211, 102, 0);
+  }
 }
 
 .btn-whatsapp-pulse-border {
-	bottom: 120px;
-	right: 20px;
-	animation-play-state: paused;
+  bottom: 120px;
+  right: 20px;
+  animation-play-state: paused;
 }
 
 .btn-whatsapp-pulse-border::before {
-	content: "";
-	position: absolute;
-	border-radius: 50%;
-	padding: px;
-	border: 5px solid #ea4343;
-	opacity: 0.75;
-	animation-name: pulse-border;
-	animation-duration: 1.5s;
-	animation-timing-function: ease-out;
-	animation-iteration-count: infinite;
+  content: "";
+  position: absolute;
+  border-radius: 50%;
+  padding: px;
+  border: 5px solid #ea4343;
+  opacity: 0.75;
+  animation-name: pulse-border;
+  animation-duration: 1.5s;
+  animation-timing-function: ease-out;
+  animation-iteration-count: infinite;
 }
 
 @keyframes pulse-border {
-	0% {
-		padding: 25px;
-		opacity: 0.75;
-	}
-	75% {
-		padding: 50px;
-		opacity: 0;
-	}
-	100% {
-		opacity: 0;
-	}
+  0% {
+    padding: 25px;
+    opacity: 0.75;
+  }
+  75% {
+    padding: 50px;
+    opacity: 0;
+  }
+  100% {
+    opacity: 0;
+  }
 }
 .frommzz .contact_form .input_list {
   width: 100%;
@@ -3949,7 +3952,7 @@ padding-top: 7px;
   border: none;
   font-size: 13px;
   color: #aaa6b2;
-  letter-spacing: .5px;
+  letter-spacing: 0.5px;
 }
 .frommzz .contact_form .input_list ul li input:focus {
   outline: none;
@@ -3981,7 +3984,6 @@ input::-webkit-inner-spin-button {
   border: 2px solid #ea4343;
   white-space: nowrap;
   font-size: 14px;
-
   -webkit-transition: all 0.3s ease;
   -moz-transition: all 0.3s ease;
   -ms-transition: all 0.3s ease;
@@ -3996,23 +3998,23 @@ input::-webkit-inner-spin-button {
   color: #15111e;
   width: 14px;
 }
-.newsss{
+.newsss {
   padding-right: 50px;
 }
-.whiters{
+.whiters {
   padding: 60px;
   border-radius: 15px;
   background-color: #fff;
   width: 800px;
 }
-.textw-te{
+.textw-te {
   text-align: center;
-  font-weight: 600 ;
+  font-weight: 600;
   font-family: "Josefin Sans";
   font-size: 20px;
   padding-bottom: 40px;
 }
- .message_area {
+.message_area {
   width: 100%;
   float: left;
   margin-bottom: 10px;
@@ -4030,10 +4032,10 @@ input::-webkit-inner-spin-button {
   color: #aaa6b2;
   letter-spacing: 0px;
 }
- .message_area textarea:focus {
+.message_area textarea:focus {
   outline: none;
 }
-#cv{
+#cv {
   width: 100%;
   border-radius: 10px;
   padding: 15.5px !important;
@@ -4043,9 +4045,119 @@ input::-webkit-inner-spin-button {
   color: #aaa6b2;
   letter-spacing: 0px;
 }
-.cv{
+.cv {
   padding-bottom: 25px;
 }
-.bigspan{
+.bigspan {
   font-size: 35px !important;
+}
+@media screen and (max-width: 1280px) {
+  .iphone {
+    background-image: url(https://res.cloudinary.com/db1i46uiv/image/upload/v1693081719/1.1_mwk1nw.png);
+    position: absolute;
+    width: 240px;
+    height: 660px;
+    top: 50%;
+    right: 20px;
+    transform: translateY(-50%);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: contain;
+    z-index: 9999;
+  }
+  .bookingz {
+    padding-left: 38px;
+    padding-right: 38px;
+    padding-top: 150px;
+  }
+  .ttlls {
+    text-align: center;
+    padding: 30px 0 30px 0;
+  }
+  .ttlls h5 {
+    font-size: 18px;
+  }
+ 
+  .logos {
+    padding-bottom: 0px;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+  }
+  .logos img {
+    border-radius: 50%;
+    width: 40px;
+  }
+  .logos h4 {
+    padding-top: 7px;
+    font-size: 18px;
+  }
+  .frommzz .contact_form .input_list ul li input {
+    width: 100%;
+    border-radius: 5px;
+    padding: 6px 10px !important;
+    font-family: "Josefin Sans";
+    background-color: #f4f5fe;
+    border: none;
+    font-size: 12px;
+    color: #aaa6b2;
+    letter-spacing: 0.5px;
+    height: 35px;
+  }
+  .aali_tm_buttonzzz a {
+    text-decoration: none;
+    width: 100%;
+    color: #fff;
+    font-family: "Josefin Sans";
+    display: inline-block;
+    background-color: #ea4343;
+    font-weight: 700;
+    position: relative;
+    padding: 4px 0 4px 0px;
+    text-align: center;
+    border-radius: 6px;
+    border: 2px solid #ea4343;
+    white-space: nowrap;
+    font-size: 12px;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+  }
+}
+@media screen and (max-width: 700px) {
+  .blxxss{
+
+    display: block;
+    background-color: white;
+    border-radius: 10px;
+  }
+  .bookingz {
+   padding: 40px;
+   margin: 60px 0 0 0;
+  }
+  .ttlls {
+    text-align: center;
+    padding: 0px 0 30px 0;
+  }
+  .ttlls h5 {
+    font-size: 22px;
+  }
+  .aali_tm_hero .hero_inner{
+    height: 1025px;
+  }
+  .aali_tm_hero{
+    height: 1025px;
+  }
+}
+@media screen and (min-width: 700px) {
+  .blxxss{
+    display: none;
+  }
+}
+.order-btn{
+  padding: 20px 0;
 }
