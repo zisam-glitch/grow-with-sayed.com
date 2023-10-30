@@ -16,11 +16,7 @@ const About = () => {
                 data-reverse="yes"
               />
               <span className="border">
-                <span
-                  className="in moving_effect"
-                  data-direction="x"
-                  data-reverse="yes"
-                />
+              
               </span>
             </div>
           </div>
