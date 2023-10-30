@@ -8,8 +8,8 @@ const About = () => {
         <div className="about_inner">
           <div className="left">
             <div className="image">
-              <img src="img/thumbs/45-49.jpg" alt="aali image" />
-              <div className="main" data-img-url="img/about/1.jpg" />
+              <img src="https://res.cloudinary.com/db1i46uiv/image/upload/v1698654584/image_123650291_1_ohc21u.jpg" alt="aali image" />
+              <div className="main" data-img-url="https://res.cloudinary.com/db1i46uiv/image/upload/v1698654584/image_123650291_1_ohc21u.jpg" />
               <span
                 className="square moving_effect"
                 data-direction="y"
